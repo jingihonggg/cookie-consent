@@ -1,0 +1,54 @@
+<html>
+
+<head>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+	<link rel="stylesheet" href="index.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<main>
+		<section class="section-container">
+			<h1>Learn to Code and get a job by the end of the day! ZERO to HERO</h1>
+
+			<ul>
+				<li class="li-green">💰 Have the same net worth as Elon Musk!</li>
+				<li class="li-yellow">💻 Master JavaScript in 10 minutes!</li>
+				<li class="li-blue">⚛️ Learn React during your bathroom break!</li>
+				<li class="li-pink">☕ Be a NodeJS Dev by lunchtime and leave your current job guaranteed</li>
+			</ul>
+
+			<h3>Albert Einstein approves of this learning technique! Learn while you sleep!</h3>
+			<img src="images/office.jpg">
+			<p>Learn
+				programming and earn a lot of money without lifting a finger. Do it in 5 minutes or less or your money
+				back! </p>
+		</section>
+	</main>
+	<div class="modal" id="modal">
+		<div class="close-modal-btn-container">
+			<button class="modal-close-btn" id="modal-close-btn" disabled>X</button>
+		</div>
+		<div class="modal-inner" id="modal-inner">
+			<h2>We ❤️ Your Data!</h2>
+			<p class="modal-text" id="modal-text">We have a strict policy on tracking and spamming: we'll definitely
+				track you, and we'll definitely spam you. To use this
+				site, enter your name and email address and accept our ridiculous terms and conditions.</p>
+			<form id="consent-form">
+				<label for="fullName"></label>
+				<input type="text" id='fullName' name="fullName" placeholder="Enter your full name" required />
+				<label for="email"></label>
+				<input type="email" name="email" placeholder="Enter your email" required />
+
+				<div class="modal-choice-btns" id="modal-choice-btns">
+					<button id="accept-btn" type="submit" class="modal-btn">Accept</button>
+					<button id="decline-btn" class="modal-btn">Decline</button>
+				</div>
+
+			</form>
+		</div>
+	</div>
+	<script src="index.js"></script>
+</body>
+
+</html>
